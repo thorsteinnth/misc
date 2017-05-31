@@ -1,7 +1,7 @@
 #!/bin/bash
 
 defaults write com.apple.dock orientation left;
-defaults write com.apple.dock tilesize -int 40; 
+defaults write com.apple.dock tilesize -int 35; 
 killall Dock
 
 echo "New dock position:"
